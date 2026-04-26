@@ -32,3 +32,20 @@
     - Quantize về INT8
     - Export weights → HEX
     - Mapping sang NPU (Verilog)
+
+## Project: CNN Accelerator on FPGA (Cyclone V)
+
+- Dataset: CIFAR-10
+- Model: Lightweight CNN (NPU-friendly)
+- Framework: PyTorch
+- Hardware Target: Terasic DE10-Standard
+
+### Features
+- Training pipeline (Colab)
+- Model export to HEX
+- Verilog-based NPU accelerator
+
+### Status
+- [x] Model trained
+- [ ] Quantization
+- [ ] FPGA deployment
